@@ -3,8 +3,8 @@
 #usethis::edit_r_environ()
 
 # Setup in Correct Directory
-Linux <- file.path("/home", "david", "Documents", "InstrumentQC")
-Windows <- file.path("C:", "Users", "Aurora CS", "Documents", "InstrumentQC")
+Linux <- file.path("/home", "davd", "Documents", "InstrumentQC")
+Windows <- file.path("C:", "Users", "My Aurora CS", "Documents", "Loyola_InstrumentQC")
 
 OperatingSystem <- Sys.info()["sysname"]
 if(OperatingSystem == "Linux"){OS <- Linux
